@@ -1,12 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Oxygen:300,300italic,600,600italic,700");
 @import url("font-awesome.min.css");
 
-/*
-	Miniport by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1325,81 +1319,6 @@
 				width: auto;
 			}
 
-/* Button */
-
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	button,
-	.button {
-		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		-moz-transition: background-color .2s ease-in-out;
-		-webkit-transition: background-color .2s ease-in-out;
-		-ms-transition: background-color .2s ease-in-out;
-		transition: background-color .2s ease-in-out;
-		-webkit-appearance: none;
-		position: relative;
-		display: inline-block;
-		color: #fff !important;
-		text-decoration: none;
-		font-weight: 700;
-		border: 0;
-		outline: 0;
-		cursor: pointer;
-		border-radius: 8px;
-		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
-		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
-	}
-
-		input[type="button"]:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
-			background-color: #43bff0;
-			color: #fff !important;
-		}
-
-		input[type="button"]:active,
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		button:active,
-		.button:active {
-			background-color: #3BA8D3;
-			top: 1px;
-		}
-
-		input[type="button"].alt,
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		button.alt,
-		.button.alt {
-			background-color: #444;
-			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
-		}
-
-			input[type="button"].alt:hover,
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
-				background-color: #4f4f4f;
-				color: #fff !important;
-			}
-
-			input[type="button"].alt:active,
-			input[type="submit"].alt:active,
-			input[type="reset"].alt:active,
-			button.alt:active,
-			.button.alt:active {
-				background-color: #3f3f3f;
-			}
-
 /* List */
 
 	ul.default {
@@ -1603,7 +1522,8 @@
 		}
 
 		.wrapper.style1 {
-			background-image: none;
+			background-image: url("images/sky.jpg");
+			background-size: cover;
 			background-color: #fff;
 		}
 
@@ -1765,35 +1685,6 @@
 					font-size: 1.25em;
 				}
 
-		/* Form */
-
-			form input[type="button"],
-			form input[type="submit"],
-			form input[type="reset"],
-			form button,
-			form .button {
-				margin: 0 0.5em 0 0.5em;
-			}
-
-		/* Button */
-
-			input[type="button"],
-			input[type="submit"],
-			input[type="reset"],
-			button,
-			.button {
-				padding: 1em 2.35em 1em 2.35em;
-				font-size: 1.1em;
-			}
-
-				input[type="button"].big,
-				input[type="submit"].big,
-				input[type="reset"].big,
-				button.big,
-				.button.big {
-					font-size: 1.5em;
-					letter-spacing: -0.025em;
-				}
 
 		/* Box */
 
@@ -1824,12 +1715,12 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 8em 0 8em 0;
+				padding: 12em 0 12em 0;
 				text-align: center;
 			}
 
 				.wrapper.first {
-					padding-top: 12em;
+					padding-top: 6em;
 				}
 
 		/* Nav */
@@ -1861,7 +1752,7 @@
 			}
 
 				#top .image {
-					width: 20em;
+					width: 15em;
 					height: 20em;
 					margin: 0;
 				}
@@ -1874,6 +1765,7 @@
 					font-size: 1.5em;
 					line-height: 1.75em;
 					text-align: justify;
+					color: #383838;
 				}
 
 			#contact footer {
@@ -1997,18 +1889,6 @@
 				clear: both;
 			}
 
-		/* Button */
-
-			input[type="button"],
-			input[type="submit"],
-			input[type="reset"],
-			button,
-			.button {
-				text-align: center;
-				font-size: 1.2em;
-				width: 100%;
-				padding: 1em 0 1em 0;
-			}
 
 		/* List */
 
@@ -2105,3 +1985,9 @@
 				}
 
 	}
+
+	/*
+		Miniport by HTML5 UP
+		html5up.net | @n33co
+		Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	*/

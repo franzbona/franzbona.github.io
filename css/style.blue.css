@@ -639,13 +639,6 @@ CONTACT
 .contact {
   background: #fff;
 }
-.contact form {
-  margin-top: 40px;
-}
-.contact form input,
-.contact form textarea {
-  margin-top: 20px;
-}
 /*
 
 =====================
@@ -1534,6 +1527,7 @@ h3,
 .h3 {
   margin-top: 22px;
   margin-bottom: 22px;
+  text-align: center;
 }
 p {
   margin: 0 0 11px;

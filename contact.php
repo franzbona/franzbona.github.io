@@ -1,7 +1,7 @@
 <?php
 
 /**
- * configure here
+ * NOT USED
  */
 $from = 'IT WORKER <it@domain.com>';
 $sendTo = 'Francesco Bonadiman <franzbona@hotmail.it>';

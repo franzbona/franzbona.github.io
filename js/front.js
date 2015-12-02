@@ -363,12 +363,12 @@ function map() {
 	mapTypeControl: false,
 	overviewMapControl: false,
 	scrollwheel: false,
-	draggable: true,
+	draggable: false,
 	styles: styles
     });
 
     var image = 'img/marker.png';
-    
+
     map.addMarker({
 	lat: 52.5167,
 	lng: 13.3833,

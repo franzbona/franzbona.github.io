@@ -932,7 +932,7 @@ figure {
   margin: 0;
 }
 img {
-  vertical-align: middle;
+  vertical-align: left;
 }
 .img-responsive,
 .thumbnail > img,

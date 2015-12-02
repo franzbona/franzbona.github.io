@@ -368,7 +368,7 @@ function map() {
     });
 
     var image = 'img/marker.png';
-
+    
     map.addMarker({
 	lat: 52.5167,
 	lng: 13.3833,
@@ -383,6 +383,15 @@ function map() {
 	lng: 11.1000,
 	icon: image/* ,
 	 title: 'Zambana',
+	 infoWindow: {
+	 content: '<p>HTML Content</p>'
+	 }*/
+    });
+    map.addMarker({
+	lat: 48.8567,
+	lng: 2.3508,
+	icon: image/* ,
+	 title: 'Paris',
 	 infoWindow: {
 	 content: '<p>HTML Content</p>'
 	 }*/

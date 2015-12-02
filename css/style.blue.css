@@ -251,66 +251,6 @@ ABOUT
   font-weight: 300;
   text-transform: uppercase;
 }
-.progress-bar-skill1 {
-  background-color: #d1d1d1 !important;
-  background-color: #a4c6ec !important;
-}
-.progress-striped .progress-bar-skill1 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill1 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-skill2 {
-  background-color: #c8c7c7 !important;
-  background-color: #8fb9e7 !important;
-}
-.progress-striped .progress-bar-skill2 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill2 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-skill3 {
-  background-color: #bdbdbd !important;
-  background-color: #7aabe3 !important;
-}
-.progress-striped .progress-bar-skill3 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill3 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-skill4 {
-  background-color: #b3b2b2 !important;
-  background-color: #659ede !important;
-}
-.progress-striped .progress-bar-skill4 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill4 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-bar-skill5 {
-  background-color: #a9a8a8 !important;
-  background-color: #5091da !important;
-}
-.progress-striped .progress-bar-skill5 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
-.progress-striped .progress-bar-skill5 {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-}
 /*
 
 =====================
@@ -642,84 +582,6 @@ CONTACT
 /*
 
 =====================
-CONTACT - WORDPRESS
-=====================
-
-*/
-div.wpcf7 div.wpcf7-response-output {
-  padding: 15px;
-  margin-bottom: 22px;
-  border: 1px solid transparent;
-  border-radius: 0;
-}
-div.wpcf7 div.wpcf7-response-output > p,
-div.wpcf7 div.wpcf7-response-output > ul {
-  margin-bottom: 0;
-}
-div.wpcf7 div.wpcf7-response-output > p + p {
-  margin-top: 5px;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok {
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-  color: #3c763d;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok hr {
-  border-top-color: #c9e2b3;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok .alert-link {
-  color: #2b542c;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-spam-blocked {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-spam-blocked hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-spam-blocked .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-validation-errors {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-validation-errors hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-validation-errors .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-validation-errors {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-validation-errors hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-validation-errors .alert-link {
-  color: #843534;
-}
-div.wpcf7 .wpcf7-form p {
-  display: none;
-}
-/*
-
-=====================
 MAP
 =====================
 
@@ -760,15 +622,28 @@ FOOTER
 #footer p.social a.facebook {
   background-color: #4460ae;
 }
+#footer p.social a.linkedin {
+  background-color: #0077b5;
+}
+#footer p.social a.skype {
+  background-color: #00aff0;
+}
+#footer p.social a.twitter {
+  background-color: #55acee;
+}
+#footer p.social a.spotify {
+  background-color: #2ebd59;
+}
+#footer p.social a.github {
+  background-color: #ff9933;
+}
+#footer p.social a.youtube {
+  background-color: #cd201f;
+}
 #footer p.social a.gplus {
   background-color: #c21f25;
 }
-#footer p.social a.instagram {
-  background-color: #cd4378;
-}
-#footer p.social a.email {
-  background-color: #4a7f45;
-}
+
 @media (max-width: 767px) {
   #footer p.social {
     text-align: center;

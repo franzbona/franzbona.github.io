@@ -86,6 +86,8 @@ sub {
 }
 img {
   border: 0;
+  background-size: cover;
+
 }
 svg:not(:root) {
   overflow: hidden;
@@ -228,6 +230,8 @@ th {
   }
   img {
     max-width: 100% !important;
+    background-size: cover;
+
   }
   p,
   h2,
@@ -905,11 +909,6 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-  background: no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 input,
 button,
@@ -947,6 +946,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  background-size: cover;
+
 }
 .img-rounded {
   border-radius: 6px;
@@ -963,6 +964,8 @@ img {
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  background-size: cover;
+
 }
 .img-circle {
   border-radius: 50%;
@@ -4705,6 +4708,8 @@ a.list-group-item.active > .badge,
 .thumbnail a > img {
   margin-right: auto;
   margin-left: auto;
+  background-size: cover;
+
 }
 a.thumbnail:hover,
 a.thumbnail:focus,

@@ -548,10 +548,9 @@ FOOTER
 #footer p.social a.youtube {
   background-color: #cd201f;
 }
-#footer p.social a.gplus {
-  background-color: #c21f25;
+#footer p.social a.lastfm {
+  background-color: #d51007;
 }
-
 @media (max-width: 767px) {
   #footer p.social {
     text-align: center;

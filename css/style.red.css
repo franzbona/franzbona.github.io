@@ -256,28 +256,6 @@ ABOUT
 
 
 =====================
-SERVICES
-=====================
-
-*/
-.services .icon {
-  font-size: 60px;
-  text-align: center;
-  text-shadow: 5px 5px 0 #9c2121;
-}
-.services .heading {
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 20px;
-  text-align: center;
-}
-.services p {
-  font-size: 15px;
-  text-align: left;
-}
-/*
-
-=====================
 WORKS / REFERENCES
 =====================
 
@@ -432,21 +410,6 @@ WORKS / REFERENCES
 /*
 
 =====================
-CUSTOMERS
-=====================
-
-*/
-.customer {
-  text-align: center;
-}
-.customer img {
-  display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-/*
-
-=====================
 SHOWCASE
 =====================
 
@@ -478,101 +441,6 @@ SHOWCASE
 .showcase .item h4 span {
   font-weight: 100;
   font-size: 41px;
-}
-/*
-
-=====================
-CONTACT
-=====================
-
-*/
-.contact {
-  background: #fff;
-}
-.contact form {
-  margin-top: 40px;
-}
-.contact form input,
-.contact form textarea {
-  margin-top: 20px;
-}
-/*
-
-=====================
-CONTACT - WORDPRESS
-=====================
-
-*/
-div.wpcf7 div.wpcf7-response-output {
-  padding: 15px;
-  margin-bottom: 22px;
-  border: 1px solid transparent;
-  border-radius: 0;
-}
-div.wpcf7 div.wpcf7-response-output > p,
-div.wpcf7 div.wpcf7-response-output > ul {
-  margin-bottom: 0;
-}
-div.wpcf7 div.wpcf7-response-output > p + p {
-  margin-top: 5px;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok {
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-  color: #3c763d;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok hr {
-  border-top-color: #c9e2b3;
-}
-div.wpcf7 div.wpcf7-mail-sent-ok .alert-link {
-  color: #2b542c;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-mail-sent-ng .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-spam-blocked {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-spam-blocked hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-spam-blocked .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-validation-errors {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-validation-errors hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-validation-errors .alert-link {
-  color: #843534;
-}
-div.wpcf7 div.wpcf7-validation-errors {
-  background-color: #f2dede;
-  border-color: #ebccd1;
-  color: #a94442;
-}
-div.wpcf7 div.wpcf7-validation-errors hr {
-  border-top-color: #e4b9c0;
-}
-div.wpcf7 div.wpcf7-validation-errors .alert-link {
-  color: #843534;
-}
-div.wpcf7 .wpcf7-form p {
-  display: none;
 }
 /*
 
@@ -1405,11 +1273,23 @@ p {
   margin-bottom: 22px;
   font-size: 18px;
 }
+
 @media (min-width: 768px) {
   .lead {
     font-size: 24px;
   }
 }
+
+.mail {
+  margin-bottom: 22px;
+  font-size: 24px;
+  }
+
+.mail a:link {
+  color: #FFF;
+}
+
+
 .text-small {
   font-size: 14px;
 }

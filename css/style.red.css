@@ -470,6 +470,7 @@ FOOTER
 }
 #footer p.social a {
   margin-left: 10px;
+  padding-bottom: 10px;
   color: #fff;
   display: inline-block;
   width: 50px;

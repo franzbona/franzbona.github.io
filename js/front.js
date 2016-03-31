@@ -396,7 +396,10 @@ function map() {
 	 content: '<p>HTML Content</p>'
 	 }*/
     });
+
 }
+
+
 
 /* =========================================
  *  UTILS

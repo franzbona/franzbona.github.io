@@ -148,19 +148,6 @@ function sliders() {
 }
 
 /* =========================================
- * counters
- *  =======================================*/
-
-function counters() {
-
-    $('.counter').counterUp({
-	delay: 10,
-	time: 1000
-    });
-
-}
-
-/* =========================================
  * parallax
  *  =======================================*/
 
@@ -267,6 +254,22 @@ function openReference() {
     $('#detail').addClass('open');
     $('#references-masonry').animate({opacity: 0}, 300);
     $('#detail').animate({opacity: 1}, 300);
+
+
+    jQuery(document.documentElement).keyup(function (event) {
+
+        var owl = jQuery(".owl-carousel");
+
+        // handle cursor keys
+        if (event.keyCode == 37) {
+           // go left
+           owl.trigger('owl.prev');
+        } else if (event.keyCode == 39) {
+           // go right
+           owl.trigger('owl.next');
+        }
+
+    });
 
     setTimeout(function () {
 	$('#detail').slideDown();

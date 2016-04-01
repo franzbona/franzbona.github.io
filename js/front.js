@@ -11,7 +11,6 @@ $(function () {
     sliding();
     contactForm();
     map();
-    counters();
     parallax();
     demo();
 });
@@ -26,6 +25,7 @@ $(window).load(function () {
 $(window).resize(function () {
 
     newWindowWidth = $(window).width();
+    map(); //recreates the map everytime the window changes size
 
     if (windowWidth !== newWindowWidth) {
 	setTimeout(function () {
@@ -350,11 +350,11 @@ function fullScreenContainer() {
 function map() {
 
     var styles = [{"featureType": "landscape", "stylers": [{"saturation": -100}, {"lightness": 65}, {"visibility": "on"}]}, {"featureType": "poi", "stylers": [{"saturation": -100}, {"lightness": 51}, {"visibility": "simplified"}]}, {"featureType": "road.highway", "stylers": [{"saturation": -100}, {"visibility": "simplified"}]}, {"featureType": "road.arterial", "stylers": [{"saturation": -100}, {"lightness": 30}, {"visibility": "on"}]}, {"featureType": "road.local", "stylers": [{"saturation": -100}, {"lightness": 40}, {"visibility": "on"}]}, {"featureType": "transit", "stylers": [{"saturation": -100}, {"visibility": "simplified"}]}, {"featureType": "administrative.province", "stylers": [{"visibility": "off"}]}, {"featureType": "water", "elementType": "labels", "stylers": [{"visibility": "on"}, {"lightness": -25}, {"saturation": -100}]}, {"featureType": "water", "elementType": "geometry", "stylers": [{"hue": "#ffff00"}, {"lightness": -25}, {"saturation": -97}]}];
-    map = new GMaps({
+    var map = new GMaps({
 	el: '#map',
-    /* centered on Paris and zoomed out */
-  lat: 48.8567,
-  lng: 2.3508,
+    /* centered on Zambana and zoomed out */
+  lat: 46.1500,
+  lng: 11.1000,
   zoom: 4,
 	zoomControl: true,
 	zoomControlOpt: {
@@ -401,8 +401,6 @@ function map() {
     });
 
 }
-
-
 
 /* =========================================
  *  UTILS

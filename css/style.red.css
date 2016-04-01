@@ -514,6 +514,7 @@ FOOTER
 #footer p.template-bootstrapious {
   margin-top: 20px;
   text-align: center;
+  line-height: 20px;
   color: #999999;
   font-family: 'Roboto Slab', serif;
   font-size: 14px;

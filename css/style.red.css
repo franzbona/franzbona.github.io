@@ -1275,8 +1275,9 @@ p {
   font-size: 24px;
   }
 
-.mail a:link {
+.mail a {
   color: #FFF;
+
 }
 
 

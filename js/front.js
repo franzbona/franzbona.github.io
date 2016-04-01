@@ -375,29 +375,29 @@ function map() {
     map.addMarker({
 	lat: 52.5167,
 	lng: 13.3833,
-	icon: image/* ,
+	icon: image,
 	 title: 'Berlin',
 	 infoWindow: {
-	 content: '<p>HTML Content</p>'
-	 }*/
+	 content: '<h4>I moved to Berlin in September 2014 </br> and remained there till December 2015.</h4>'
+	 }
     });
     map.addMarker({
 	lat: 46.1500,
 	lng: 11.1000,
-	icon: image/* ,
+	icon: image,
 	 title: 'Zambana',
 	 infoWindow: {
-	 content: '<p>HTML Content</p>'
-	 }*/
+	 content: '<h4>I was born in Trento and spent most of my life </br> in a small village named Zambana.</h4>'
+	 }
     });
     map.addMarker({
 	lat: 48.8567,
 	lng: 2.3508,
-	icon: image/* ,
+	icon: image,
 	 title: 'Paris',
 	 infoWindow: {
-	 content: '<p>HTML Content</p>'
-	 }*/
+	 content: '<h4>I lived in Paris from September 2013  </br> until September 2014.</h4>'
+	 }
     });
 
 }

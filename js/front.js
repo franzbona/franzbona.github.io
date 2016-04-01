@@ -11,7 +11,6 @@ $(function () {
     sliding();
     contactForm();
     map();
-    parallax();
     demo();
 });
 
@@ -144,16 +143,6 @@ function sliders() {
 	    itemsMobile: [750, 1]
 	});
     }
-
-}
-
-/* =========================================
- * parallax
- *  =======================================*/
-
-function parallax() {
-
-    $('.text-parallax').parallax("50%", 0.1);
 
 }
 

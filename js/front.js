@@ -245,15 +245,16 @@ function openReference() {
     $('#detail').animate({opacity: 1}, 300);
 
 
-    jQuery(document.documentElement).keyup(function (event) {
+    $(document.documentElement).keyup(function (event) {
 
-        var owl = jQuery(".owl-carousel");
+        var owl = $(".owl-carousel");
 
         // handle cursor keys
         if (event.keyCode == 37) {
            // go left
            owl.trigger('owl.prev');
-        } else if (event.keyCode == 39) {
+        } 
+        if (event.keyCode == 39) {
            // go right
            owl.trigger('owl.next');
         }

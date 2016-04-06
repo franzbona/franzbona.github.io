@@ -238,14 +238,7 @@ $('.reference-item').click(function (e) {
 
 });
 
-function openReference() {
-
-    $('#detail').addClass('open');
-    $('#references-masonry').animate({opacity: 0}, 300);
-    $('#detail').animate({opacity: 1}, 300);
-
-
-    $(document.documentElement).keyup(function (event) {
+function keyuplistener(event) {
 
         var owl = $(".owl-carousel");
 
@@ -258,8 +251,17 @@ function openReference() {
            // go right
            owl.trigger('owl.next');
         }
+  
 
-    });
+}
+
+function openReference() {
+
+    $('#detail').addClass('open');
+    $('#references-masonry').animate({opacity: 0}, 300);
+    $('#detail').animate({opacity: 1}, 300);
+
+    $(document.documentElement).keyup(keyuplistener);
 
     setTimeout(function () {
 	$('#detail').slideDown();
@@ -288,6 +290,8 @@ function closeReference() {
 
     $('#detail').removeClass('open');
     $('#detail').animate({'opacity': 0}, 300);
+
+    $(document.documentElement).unbind("keyup", keyuplistener);
 
     setTimeout(function () {
 	$('#detail').slideUp();

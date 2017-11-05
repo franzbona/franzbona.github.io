@@ -42,90 +42,114 @@
 
   <!-- Mordernizr -->
   <script src="js/modernizr-2.6.2.min.js"></script>
+  <script src="js/typewrite.js"></script>
+
 
   <!-- Responsivity for older IE -->
   <!--[if lt IE 9]>
   <script src="js/respond.min.js"></script>
-  <![endif]-->
+<![endif]-->
 </head>
 
 <body data-spy="scroll" data-target="#navigation" data-offset="120">
 
   <!-- *** NAVBAR ***
-  _________________________________________________________ -->
+    _________________________________________________________ -->
 
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand scrollTo" href="#intro">FranzBona</a>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand scrollTo" href="#intro">FranzBona</a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navigation">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#intro">Intro</a>
+            </li>
+            <li><a href="#about">About</a>
+            </li>
+            <li><a href="#skills">Skills</a>
+            </li>
+            <li><a href="#references">Portfolio</a>
+            </li>
+            <li><a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+
       </div>
-
-      <div class="navbar-collapse collapse" id="navigation">
-
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#intro">Intro</a>
-          </li>
-          <li><a href="#about">About</a>
-          </li>
-          <li><a href="#skills">Skills</a>
-          </li>
-          <li><a href="#references">Portfolio</a>
-          </li>
-          <li><a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
-
     </div>
-  </div>
-  <!-- /#navbar -->
+    <!-- /#navbar -->
 
-  <!-- *** NAVBAR END *** -->
+    <!-- *** NAVBAR END *** -->
 
 
-  <div id="all">
+    <div id="all">
 
 
     <!-- *** INTRO IMAGE ***
-    _________________________________________________________ -->
-    <div id="intro" class="clearfix">
-      <div class="item">
-        <div class="container">
-          <div class="row">
-            <div class="carousel-caption">
-              <h1 data-animate="fadeInDown">Hi, I'm Francesco!</h1>
-              <h2 data-animate="slideInUp" >I'm a <strong>UX Designer</strong> and <strong>tech enthusiast</strong>.</h2>
+      _________________________________________________________ -->
+      <div id="intro" class="clearfix">
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              <div class="carousel-caption">
+                <h1 data-animate="fadeInDown">Hi, I'm Francesco!</h1>
+                <h2 class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+                    <span class="wrap"></span></h2>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- *** INTRO IMAGE END *** -->
+      <!-- *** INTRO IMAGE END *** -->
 
     <!-- *** ABOUT ***
-    _________________________________________________________ -->
-    <div class="section" id="about">
-      <div class="container">
-        <div class="row">
+      _________________________________________________________ -->
+      <div class="section" id="about">
+        <div class="container">
+          <div class="row">
 
-          <div class="col-sm-12">
-            <h2 class="title" data-animate="fadeInDown">About me</h2>
-          </div>
+            <div class="col-sm-12">
+              <h2 class="title" data-animate="fadeInDown">About me</h2>
+            </div>
 
-          <div class="col-sm-12">
+            <div class="col-sm-12">
 
-            <div class="row">
+              <div class="row">
 
-              <div class="col-sm-8 text-justify" data-animate="fadeInUp">
+                <div class="col-sm-8 text-justify" data-animate="fadeInUp">
 
+<<<<<<< HEAD
+                  <p class="lead">I'm a young ICT professional working as <strong>UX Designer</strong> at <a href="http://eitdigital.eu">EIT Digital</a> in Trento on the project <a href="http://www.crowdinsights.eu/">"CrowdInsights"</a>, which involves TIM, KPN, FBK, PoliMi and TU Delft. I am also organizing a series of <a href="https://www.eventbrite.it/o/eit-digital-trento-node-6221522925">"Innovation Talks"</a>.</p>
+                  <p class="lead">I'm the <strong>President</strong> of both the <a href="http://alumni.eitdigital.eu">EIT Digital Alumni</a> and <a href="http://speckand.tech/">Speck&amp;Tech</a>, a tech-community I co-founded in Trento. 
+                    I love <strong>hackathons</strong> and won <strong>7</strong> of them with my team in the past year.</p>
+                    <p class="lead">Previously, I worked as <strong>Interaction Designer</strong> at <a href="http://www.laboratories.telekom.com/">Telekom Innovation Laboratories</a> in Berlin and completed a double master's degree in HCI between Université Paris-Sud and TU Berlin.</p>
+                  </div>
+
+                  <div class="col-sm-4" data-animate="fadeInUp">
+                    <img src="img/me_google.jpg" class="image img-circle img-responsive" alt="This is me - franzbona">
+                  </div>
+
+                </div>
+                <br>
+                <br>
+                <div class="columns download">
+                  <p class="lead">
+                    <a href="docs/CV_FB.pdf" class="btn btn-primary btn-lg">Take a look at my CV</a>
+                  </p>
+                  <a href="docs/CV_FB_bw.pdf">Print Friendly PDF</a>
+=======
                 <p class="lead">I'm a young ICT professional working as <strong>UX Designer</strong> at <a href="http://eitdigital.eu">EIT Digital</a> in Trento on the project <a href="http://www.crowdinsights.eu/">"CrowdInsights"</a>, which involves TIM, FBK, PoliMi and TU Delft. I am also organizing a series of <a href="https://www.eventbrite.it/o/eit-digital-trento-node-6221522925">"Innovation Talks"</a>.</p>
                 <p class="lead">I'm the <strong>MarComm Officer</strong> of the <a href="http://alumni.eitdigital.eu">EIT Digital Alumni</a> and the President of <a href="http://speckand.tech/">Speck&amp;Tech</a>, a tech-community I co-founded in Trento. 
                   I love <strong>hackathons</strong> and won <strong>6</strong> of them with my team in the last few months.</p>
@@ -133,44 +157,35 @@
                 </div>
 
                 <div class="col-sm-4" data-animate="fadeInUp">
-                  <img src="img/me_bw.jpg" class="image img-circle img-responsive" alt="This is me - franzbona">
+                  <img src="img/me_google.jpg" class="image img-circle img-responsive" alt="This is me - franzbona">
+>>>>>>> e786105263e9190884f72bd4839ce3b22c032d23
                 </div>
 
               </div>
-              <br>
-              <br>
-              <div class="columns download">
-                <p class="lead">
-                  <a href="docs/CV_FB.pdf" class="btn btn-primary btn-lg">Take a look at my CV</a>
-                </p>
-                <a href="docs/CV_FB_bw.pdf">Print Friendly PDF</a>
-              </div>
 
             </div>
-
           </div>
         </div>
-      </div>
-      <!-- /#about -->
+        <!-- /#about -->
 
-      <!-- *** ABOUT END *** -->
+        <!-- *** ABOUT END *** -->
 
         <!-- *** SKILLS ***
-        _________________________________________________________ -->
-        <div class="section text-gradient" id="skills">
-          <div class="container">
-            <div class="col-md-12">
-              <h2 class="title" data-animate="fadeInDown">skills</h2>
+          _________________________________________________________ -->
+          <div class="section text-gradient" id="skills">
+            <div class="container">
+              <div class="col-md-12">
+                <h2 class="title" data-animate="fadeInDown">skills</h2>
 
-              <div class="row skills">
+                <div class="row skills">
 
-                <div class="col-md-4" data-animate="fadeInUp">
-                  <div class="icon"><i class="fa fa-user fa-3x"></i>
-                  </div>
-                  <h2 class="heading">UX Design</h2>
-                  <p>I am particularly into User Experience and Interaction Design. I am familiar with techniques such as prototyping,
+                  <div class="col-md-4" data-animate="fadeInUp">
+                    <div class="icon"><i class="fa fa-user fa-3x"></i>
+                    </div>
+                    <h2 class="heading">UX Design</h2>
+                    <p>I am particularly into User Experience and Interaction Design. I am familiar with techniques such as prototyping,
                     wireframing, user-studies, Usability Evaluation and User-Centered Design.</p><p>I love sketching mockups and testing
-                    them with the users. I am skilled at understanding user-needs and turning them into different design solutions,
+                      them with the users. I am skilled at understanding user-needs and turning them into different design solutions,
                     creating surveys for collecting feedbacks and then analysing the results.</p>
                   </div>
 
@@ -212,15 +227,15 @@
             <!-- *** SKILLS END *** -->
 
                 <!-- *** REFERENCES IMAGE ***
-                _________________________________________________________ -->
-                <div class="section" id="references">
-                  <div class="container">
-                    <div class="col-sm-12">
+                  _________________________________________________________ -->
+                  <div class="section" id="references">
+                    <div class="container">
+                      <div class="col-sm-12">
 
-                      <div class="mb20">
-                        <h2 class="title" data-animate="fadeInUp">Portfolio</h2>
+                        <div class="mb20">
+                          <h2 class="title" data-animate="fadeInUp">Portfolio</h2>
 
-                        <p class="lead" data-animate="fadeInUp">I have been working on <strong>several projects</strong> along these years.
+                          <p class="lead" data-animate="fadeInUp">I have been working on <strong>several projects</strong> along these years.
                           Here you can find the most interesting ones:</p>
                         </div>
 
@@ -270,7 +285,545 @@
                                 </div>
                               </a>
 
+<<<<<<< HEAD
                               <div class="sr-only reference-description" data-images="img/eitasd/eitasd01.jpg,img/eitasd/eitasd02.jpg,img/eitasd/eitasd03.jpg">
+=======
+                              <div class="sr-only reference-description" data-images="img/other/crusoe.jpg,img/other/papiri.jpg,img/other/cs.jpg">
+<<<<<<< HEAD
+
+                                <p>Since I have an innate passion for <a href="http://lostpedia.wikia.com/wiki/The_Numbers">numbers</a> and statistics,
+                                  here are some I consider significant to properly describe who I am:
+                                  <ul>
+                                    <li>I have been a <a href="http://www.google.com/local/guides/">Google Local Guide</a> of Level 8 for a few months: the photos I shared on Google Maps have more than <strong>5M+ views</strong> now, and I am one of the 150 participants of the <a href="https://maps.google.com/localguides/event/summit">upcoming Summit</a> in San Francisco;</li>
+                                  </br>
+                                  <li>I am a tenacious supporter of <a href="http://telegram.org/">Telegram</a> and, at the same time, an enthusiastic fan of
+                                    <a href="http://www.facebook.com/crusoedachshund/">Crusoe, The Celebrity Dachshund</a>. Thus, I created his own sticker
+                                    pack for Telegram (available <a href="http://t.me/addstickers/CrusoeDachshund">here</a>, see figure 1), who has been used
+                                    more than <strong>450K times</strong>;</li>
+                                  </br>
+                                  <li>as said before, I love presenting, pitching and preparing slides. The ones I uploaded <a href="http://www.slideshare.net/franzonadiman/presentations">
+                                  here</a>, at the moment, have been viewed more than 30K times, with over <strong>750 downloads</strong>;</li>
+                                </br>
+                                <li>I have played football for almost 15 years and written on my <a href="http://fcadige.blogspot.it/">team's Blog</a> from 2010 to 2013.
+                                  During that period, I was the author of more than <strong>150 posts</strong>, gaining more than 30K views from a regional and local audience;</li>
+                                </br>
+                                <li>I wrote more than 20 "papiro" (an <strong>essay in rhyme</strong> given to friends on Graduation Day, see figure 2).
+                                  An impersonal and didactic example can be found <a href="http://www.dropbox.com/s/im0gpb871xqtswj/09.25%20-%20Reflection.pdf?dl=0">here</a>,
+                                since I used the same technique for an assignment for a Creative Design course;</li>
+                              </br>
+                              <li>almost three years ago, before leaving for Paris, I wrote <a href="http://medium.com/@franzbona/going-back-home-6c87ccb0e42f#.ysyy6t7kn">
+                              this small essay</a> in order to get a scholarship from <a href="http://www.esnitalia.org">Erasmus Student Network Italy</a>:
+                              the goal was to try to imagine our lives once we had to come back. In the end, I ended up being <strong>one of the 5 finalists</strong> from the University of Trento;</li>
+                            </br>
+                            <li>I am a great fan of electronic music, especially progressive house and ambient/melodic techno. Follow <a href="http://play.spotify.com/user/1181124167/playlist/5MMBEDCR1Kp0enEcM7tL5R">
+                            my playlist</a>, it contains more than <strong>1K songs</strong> for 5+ days of non-stop music;</li>
+                          </br>
+                          <li>I believe in humanity and try to give my small contribution to build a <strong>better and multicultural world</strong> through
+                            <a href="http://www.couchsurfing.com">Couchsurfing</a> (figure 3): at the moment, I have hosted people from more than <strong>20 countries</strong>.
+                            You can send me your couchrequest <a href="http://www.couchsurfing.com/people/franzbona">here</a>;</li>
+                          </br>
+                          <li>I biked the whole <a href="http://avenuevertelondonparis.co.uk">Avenue Verte</a> with my father, leaving from Paris on the 21st
+                            of June 2014 and arriving in London four days later after almost <strong>540 km</strong>. You can find details and photos of this crazy adventure <a href="http://avenuevertelondonparis.co.uk/Members/franzbona/avenue-verte-1/avenue-verte">here</a>.</li>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="reference-item" data-category="marcomm" data-target="business">
+                      <div class="reference">
+                        <a href="#">
+                          <img src="img/eitasd/eitasd.jpg" class="img-responsive" alt="" />
+
+                          <div class="overlay">
+                            <h3 class="reference-title">EIT ALUMNI STARTUP DAYS</h3>
+                            <p>6 European cities, 150+ participants, 1 startup event</p>
+                          </div>
+                        </a>
+
+                        <div class="sr-only reference-description" data-images="img/eitasd/eitasd01.jpg,img/eitasd/eitasd02.jpg,img/eitasd/eitasd03.jpg">
+
+                          <p>The <strong>EIT Alumni Startup Days</strong> is a non-profit event bringing together people from different technical areas to develop a new business idea on a sustainable topic over a weekend. The objective is to offer technical students and <a href="http://eitalumni.eu/">Alumni</a> the chance to put entrepreneurial education into practice and foster the collaboration of the EIT Knowledge and Innovation Communities and their stakeholders.
+                          </p>
+
+                          <p>Participants start by building teams on Friday evening and keep working on their ideas along the whole weekend. They pitch their business ideas and get feedback from <strong>mentors and coaches</strong> working in the entrepreneurial field, until they have a final version of their “business”, consisting of a Business Model and an analysis of the related market, the customer need and the social/environmental impact.</p>
+
+                          <p>I was part of the <strong>core-team</strong>, mostly focusing on Communications and Design, of this cross-European effort taking place in Barcelona, Berlin, Eindhoven, Lisbon, Paris and Stockholm on the first weekend of December 2016. I also planned the <strong>Social Media strategy</strong> and moderated the event in Lisbon. In 2015, I was a member of the Berlin orga-team, designed the branding and was the Head of Communication and IT. In both occasions, I also mentored the teams and helped them preparing their Business Model Canvas and refining their pitches.
+                          </p>
+
+                          <p align="center">
+                            <iframe src="http://www.slideshare.net/slideshow/embed_code/key/vLpaMC3suuk6XJ" width="595" height="375" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                            </iframe>
+                          </p>
+
+                          <p class="buttons">
+                            <a class="btn btn-primary" href="http://startupdays.eitalumni.eu/"><i class="fa fa-globe"></i> Website</a>
+                            <a class="btn btn-primary" href="http://www.facebook.com/EITAlumniStartupDays/"><i class="fa fa-facebook"></i> Facebook</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="reference-item" data-category="marcomm" data-target="business">
+                      <div class="reference">
+                        <a href="#">
+                          <img src="img/speck/speck.jpg" class="img-responsive" alt="" />
+
+                          <div class="overlay">
+                            <h3 class="reference-title">Speck&amp;Tech</h3>
+                            <p>building a network of tech enthusiasts in Trento</p>
+                          </div>
+                        </a>
+
+                        <div class="sr-only reference-description" data-images="img/speck/speck01.jpg,img/speck/speck02.jpg,img/speck/speck03.jpg">
+
+                          <p><a href="http://speckand.tech">Speck&amp;Tech</a> is a community of startuppers, students, professionals and anyone that aims at <strong>building a network of tech enthusiasts</strong> within the Trento area, with the purpose of learning about and sharing new ideas regarding development, design, startups and any related topic.
+                            By now we have hosted 15 events which attracted more than <strong>1K participants</strong>, with speakers coming from both startup, companies and research environments. Check out <a href="http://speckand.tech">speckand.tech</a> and join our <a href="http://slackin-speckandtech.rhcloud.com/">Slack</a>
+                            or <a href="http://t.me/speckandtech">Telegram</a> channels for the latest news!
+                          </p>
+
+                          <p>
+                            I'm one of the co-founders and the current <strong>President</strong> of Speck&amp;Tech, and I generally also present the events "on stage". Moreover, on the third event named "Security &amp; Privacy", I gave a talk about the <a href="http://www.slideshare.net/franzonadiman/specktech-3-the-right-to-be-forgotten">"Right to be forgotten"</a>.
+                          </p>
+
+                          <p align="center">
+                            <iframe src="http://www.slideshare.net/slideshow/embed_code/key/p7bNKUxDzmo0z1" width="595" height="375" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                            </iframe>
+                          </p>
+
+                          <p class="buttons">
+                            <a class="btn btn-primary" href="http://speckand.tech"><i class="fa fa-globe"></i> Website</a>
+                            <a class="btn btn-primary" href="http://facebook.com/speckandtech"><i class="fa fa-facebook"></i> Facebook</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="reference-item" data-category="business" data-target="design">
+                      <div class="reference">
+                        <a href="#">
+                          <img src="img/dwesa/dwesa.jpg" class="img-responsive" alt="" />
+
+                          <div class="overlay">
+                            <h3 class="reference-title">DwesaBot</h3>
+                            <p>a Telegram bot to bring sharing economy to South Africa</p>
+                          </div>
+                        </a>
+
+                        <div class="sr-only reference-description" data-images="img/dwesa/dwesa01.jpg,img/dwesa/dwesa02.jpg,img/dwesa/dwesa03.jpg">
+
+                          <p><a href="https://t.me/dwesabot">DwesaBot</a> is a light and powerful local guide for South Africans living in the Dwesa region. It comes as a <strong>chatbot</strong> for <a href="http://telegram.org">Telegram</a> and it allows users to share journeys, check for springs nearby and report new ones (with their quality), share local food with people nearby and report accidents and road disruptions. It also promotes open-data usage and transparency for the Government, since it allows citizens to verify the location of water springs, together with their quality and queue, and to report illegal dumping sites.
+                          </p>
+
+                          <p>Luca, Massimiliano, Silvio and I participated in the <a href="http://ict4g.org/sc-hackathon/">IEEE ISC2 Hackathon</a>, organized by IEEE, EIT Digital and FBK and held in Trento on September 13-14th 2016, and <a href="https://www.spindox.it/it/blog/dwesabot-un-chatbot-sud-africa">we won both the Track prize and the final one</a>, for a total amount of 5K euros. During the Hackathon I developed the whole <strong>Business Plan</strong> and the 5-minute-pitch I presented in front of the jury members. I also designed all the <strong>user interactions</strong> with the chatbot.
+                          </p>
+
+                          <p>We then <strong>redesigned and developed</strong> the bot further, together with the <a href="http://ict4g.org/home/index.html">ICT4G Unit of FBK</a>, and launched a pilot version of the bot in Dwesa.</p>
+
+                          <p align="center">
+                            <iframe src="http://www.slideshare.net/slideshow/embed_code/key/6BDD4xzyEvMpL6" width="595" height="375" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                            </iframe>
+                          </p>
+
+                          <p class="buttons">
+                            <a class="btn btn-primary" href="https://bitbucket.org/yeeeisc2/dwesarepo/"><i class="fa fa-bitbucket"></i> Source Code</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="reference-item" data-category="design" data-target="business">
+                      <div class="reference">
+                        <a href="#">
+                          <img src="img/tlabs/tlabs.jpg" class="img-responsive" alt="" />
+
+                          <div class="overlay">
+                            <h3 class="reference-title">Interaction Techniques
+                            </h3>
+                            <p>for a tabletop system to design paper prototypes for mobile applications
+                            </p>
+                          </div>
+                        </a>
+
+                        <div class="sr-only reference-description" data-images="img/tlabs/tlabs01.jpg,img/tlabs/tlabs02.jpg,img/tlabs/tlabs03.jpg">
+
+                          <p>For my Master Thesis project I worked as Interaction Designer at <a href="http://www.laboratories.telekom.com/">T-Labs</a>: I designed and developed new low-tech interaction techniques in order to enhance the user interaction in <strong>tabletop computing environments</strong>. These new interaction techniques I implemented were then applied to <a href="http://www.blended-prototyping.de/">
+                          Blended Prototyping</a>, a tabletop system conceived to design paper-prototyping for mobile devices (figure 2), which I also analyzed from
+                          an <i>Innovation and Entrepreneurship</i> perspective for my Minor Thesis.
+                        </p>
+
+                        <p> I decided to implement two different approaches: <strong>color detection</strong> and <strong>barcode recognition</strong>.
+                          I coded these two alternatives in Java (using JavaCV): I adapted and created a few algorithms to check the
+                          RGB values of the sketched components and convert them into rectangular shapes, which would be later translated into
+                          specific patterns according to their color (figure 3). Moreover, I gave users the possibility to perform a number
+                          of operations on the sketches by using special barcodes.
+                        </p>
+
+                        <p>Finally, I evaluated these techniques with users to assess how fast or mentally demanding they were and which
+                          of the developed approaches (if any) was preferred. I designed the experiment, prepared the surveys and the tasks,
+                          and eventually ran the <strong>user-studies</strong> with 24 users (figure 1). Ultimately, I analyzed the data by using the
+                          <strong>One-Way ANOVA test</strong>, comparing and contrasting the different design solutions.
+                        </p>
+
+                        <p align="center">
+                          <iframe src="http://www.slideshare.net/slideshow/embed_code/key/8mahWtjZryeUyH" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                          </iframe>
+
+                          <iframe src="http://www.slideshare.net/slideshow/embed_code/key/cjcuZsatcBZrHU" width="595" height="375" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
+                          </iframe>
+
+                          <iframe src="http://www.slideshare.net/slideshow/embed_code/key/2I2n1MHQv5ZsJU" width="668" height="714" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                          </iframe> 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="reference-item" data-category="business" data-target="design">
+                    <div class="reference">
+                      <a href="#">
+                        <img src="img/francigenr/francigenr.jpg" class="img-responsive" alt="" />
+
+                        <div class="overlay">
+                          <h3 class="reference-title">FrancigenR
+                          </h3>
+                          <p>plan your Via Francigena trip, meet like-minded travellers
+                          </p>
+                        </div>
+                      </a>
+
+                      <div class="sr-only reference-description" data-images="img/francigenr/francigenr01.jpg,img/francigenr/francigenr02.jpg,img/francigenr/francigenr03.jpg">
+
+                        <p>"FrancigenR" is a native iOS mobile application which allows users to plan their trip on the <a href="http://www.viefrancigene.org/en/">Via Francigena</a> by choosing the POIs suggested according to their profiles - updated via <strong>gamification</strong> - and to meet like-minded people they might travel with.
+                        </p>
+
+                        <p>We developed and presented this app at the <a href="http://www.hackathonbiz.it/">HackathonBiz</a> in Milan, organized by Uvet and Talent Garden on November 15-16th 2016, and we won the final prize consisting of <strong>5K€</strong>. In these 24 hours I mostly concentrated on the <strong>Business Plan</strong> by analyzing market, customer needs and competitors, and prepared the <strong>5-minute-pitch</strong> I later presented to the 10 jury members. I also defined the logo and the visual appearance of the app.
+
+                          <p align="center">
+                            <iframe src="http://www.slideshare.net/slideshow/embed_code/key/nU0P0FDjetM97" width="595" height="375" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                            </iframe>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2znzGyEJIb8" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none; overflow:hidden; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                            </iframe>
+
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="reference-item" data-category="design" data-target="marcomm">
+                      <div class="reference">
+                        <a href="#">
+                          <img src="img/monmaps/monmaps.jpg" class="img-responsive" alt="" />
+
+                          <div class="overlay">
+                            <h3 class="reference-title">Monmaps
+                            </h3>
+                            <p>a personalised mapping tool to create and share eye­-catching maps with friends
+                            </p>
+                          </div>
+                        </a>
+
+                        <div class="sr-only reference-description" data-images="img/monmaps/monmaps01.jpg,img/monmaps/monmaps02.jpg,img/monmaps/monmaps03.jpg">
+
+                          <p>MonMaps is for people fond of travelling who are dissatisfied with the currently available means of <strong>sharing travel insights
+                          and local tips</strong>. Our application is a desktop and mobile tool to allow remote friends conveniently pass such knowledge
+                          through the medium of interactive maps, eliminating technical barriers for both map creators and consumers. The aim of MonMaps
+                          is to let users create maps with a character, by giving them freedom in terms of the content, the visual look and feel,
+                          and the motif of their maps.
+                        </p>
+
+                        <p>Started as a project for the Business Development Lab course at <a href="http://www.u-psud.fr/en/index.html">Universitè Paris-Sud</a>,
+                          Monmaps became a company operating within the context of <a href="http://www.entreprendre-pour-apprendre.fr/">EPA</a>, being part of the
+                          “Start-­up” innovative programme. For this reason, we participated in two French competitions for Startups and presented the idea
+                          to a number of Google managers getting interesting feedback. However, Monmaps came to an end once the academic year was over and all
+                          the group members had to move to a different city; moreover, the improvements of <a href="http://www.google.com/maps/d/?hl=en_US&app=mp">
+                          MyMaps by Google</a> and the amount of competitors led us to take this decision.
+                        </p>
+
+                        <p>As UX Designer of the team, I was in charge of <strong>sketching the early mockups for the interface</strong> by focusing on the interactions
+                          and redesigning the User Experience according to the feedback we received. I prepared the <strong>personas</strong> and the <strong>scenarios</strong>
+                          and built a survey to understand the possible users' needs; moreover, I created some gadgets and logos by using a <strong>laser-cutter</strong> provided by
+                          <a href="http://fablabdigiscope.wordpress.com/">Fablab Digiscope</a>. In addition, I did the Competitor Analysis for our Business Plan,
+                          approached 25+ possible customers within the Paris area and wrote down the meeting minutes.
+                        </p>
+
+                        <p align="center">
+                          <iframe src="http://www.slideshare.net/slideshow/embed_code/key/EWChqclApANMcn" width="595" height="375" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
+                          </iframe>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/8IYslAEGRqM" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none; overflow:hidden; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                          </iframe>
+                        </p>
+
+                        <p class="buttons">
+                         <a class="btn btn-primary" href="http://www.facebook.com/monmaps"><i class="fa fa-facebook"></i> Facebook Page
+                         </a>
+                       </p>
+                     </div>
+
+                   </div>
+                 </div>
+
+                 <div class="reference-item" data-category="business" data-target="design">
+                  <div class="reference">
+                    <a href="#">
+                      <img src="img/hutte/hutte.jpg" class="img-responsive" alt="" />
+
+                      <div class="overlay">
+                        <h3 class="reference-title">HütteBot</h3>
+                        <p>a chatbot for smart &amp; sustainable tourism</p>
+                      </div>
+                    </a>
+
+                    <div class="sr-only reference-description" data-images="img/hutte/hutte01.jpg,img/hutte/hutte02.jpg,img/hutte/hutte03.jpg">
+
+                      <p><a href="https://t.me/huttebot">HütteBot</a> is a <a href="http://telegrama.org">Telegram</a> bot we developed for the <a href="http://hackathon.bz.it">Hackathon.bz</a>. HütteBot gets public transport and mountain cabins APIs and combines them with OpenStreetMaps and GoogleMaps ones. This way, it allows users to <strong>view mountain cabins</strong> within their area, choose the ones they want to reach via Smart Mobility, sort and filter cabins according to different parameters and view cards of the cabins with info, maps and itineraries.
+                      </p>
+
+                      <p>I participated in the Open Data Hackathon, held in Bolzano on October 15-16th 2016, together with Luca, Massimiliano and Silvio; in the end, we won the Smart Tourism Track (tickets and costs coverage for Tourism Fast Forward conference). During the Hackathon I focused on the <strong>3-minute-pitch</strong> I later presented to the jury, and designed the <strong>user interactions</strong> with the chatbot.
+                      </p>
+
+                      <p align="center">
+                        <iframe src="http://www.slideshare.net/slideshow/embed_code/key/FR1mqcLFj9ix6P" width="595" height="375" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                        </iframe>
+                        <iframe src="https://player.vimeo.com/video/189307238" width="640" height="360" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none; overflow:hidden; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                        </iframe>
+                      </p>
+
+                      <p class="buttons">
+                        <a class="btn btn-primary" href="https://bitbucket.org/yeeeisc2/huttebotrepo/"><i class="fa fa-bitbucket"></i> Source Code</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="reference-item" data-category="design">
+                  <div class="reference">
+                    <a href="#">
+                      <img src="img/bstorm/bstorm.jpg" class="img-responsive" alt="" />
+
+                      <div class="overlay">
+                        <h3 class="reference-title">BubbleStorm
+                        </h3>
+                        <p>a tabletop system to allow brainstorming techniques to be taught and used easily
+                        </p>
+                      </div>
+                    </a>
+
+                    <div class="sr-only reference-description" data-images="img/bstorm/bstorm01.jpg,img/bstorm/bstorm02.jpg,img/bstorm/bstorm03.jpg">
+
+                      <p>BubbleStorm is a tabletop system which allows <strong>brainstorming techniques</strong> to be taught and used easily through creating objects
+                        (bubbles) from ideas so they can be manipulated, reused or popped. The goal of this system is to provide an interactive tool for
+                        experts and beginners that will aid the design process, by making it easier to discuss, sketch, capture, extend, vote brainstormed ideas
+                        and view the progression of these beyond brainstorming (figure 1). Initially born as Brainteract (Interactive Brainstorming), this was later redesigned
+                        for a Design Course held by <a href="http://hcipioneers.wordpress.com/portfolio/mackay-wendy/">Wendy Mackay</a> and submitted as a <strong>paper</strong> (being accepted) to <a href="http://www.sider2015.sdu.dk/">SIDeR 2015</a>.
+                      </p>
+
+                      <p>In order to identify the design problem, I conducted a number of <strong>Critical Incident</strong> interviews and, straight after, defined the personas.
+                        I designed all the <strong>interactions</strong> with the system (figure 2), wrote and illustrated the <strong>storyboard</strong> (figure 3) and,
+                        finally, shooted and mounted both the <strong>video prototypes</strong>. Finally, I prepared the slides for the presentation and wrote the paper.
+                      </p>
+
+                      <p align="center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fpHm0dCHxpk" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none; overflow:hidden; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                        </iframe>
+
+                        <iframe src="http://www.slideshare.net/slideshow/embed_code/key/1fXDyPCiLGU1vb" width="595" height="375" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                        </iframe>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/P12HlcIobSs" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none; overflow:hidden; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                        </iframe>
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="reference-item" data-category="design">
+                  <div class="reference">
+                    <a href="#">
+                      <img src="img/ifame/ifame.jpg" class="img-responsive" alt="" />
+
+                      <div class="overlay">
+                        <h3 class="reference-title">iFame</h3>
+                        <p>a social app to enhance the canteen experience for the University of Trento</p>
+                      </div>
+                    </a>
+
+                    <div class="sr-only reference-description" data-images="img/ifame/ifame01.jpg,img/ifame/ifame02.jpg,img/ifame/ifame03.jpg">
+
+                      <p>For my Bachelor Thesis I worked at <a href="http://www.smartcampuslab.it/">Smart Campus Lab</a> on the design
+                        (and the following implementation) of an Android application for <strong>enhancing the canteen experience</strong> for the students
+                        of the University of Trento. This idea was born as a project for a course of HCI held during the third year of the Bachelor, which
+                        evolved into a design contest eventually <a href="http://www.smartcampuslab.it/2013/03/a-participatory-design-contest/">
+                        won by iFame</a>. The project and the app itself got a relevant <a href="http://www.smartcampuslab.it/press/">
+                        coverage by the local media</a>.
+                      </p>
+
+                      <p>My main contribution was to <strong>collect user feedback and needs</strong>, create the questionnaires and <strong>design the mockups</strong>
+                        for the first version of the prototype with <a href="http://balsamiq.com/products/mockups/">Balsamiq</a>.
+                        After this was tested by a number of users, I integrated the data with the results of the user-studies and
+                        redesigned the application accordingly. Once this was done, I helped the developers by mostly focusing on the
+                        <strong>UI and visual appearance</strong> of the Android app. Finally, I conducted another
+                        <strong>usability testing</strong> phase with the users, by letting them try the application "on-the-field".
+                      </p>
+
+                      <p align="center">
+                        <iframe src="http://speakerdeck.com/player/eae7a390ca0701314cde56dfb79faec3" width="430" height="700" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                        </iframe>
+                      </p>
+
+                      <p class="buttons">
+                        <a class="btn btn-primary" href="http://www.smartcampuslab.it/ifame/"><i class="fa fa-globe"></i> Website</a>
+                        <a class="btn btn-primary" href="http://play.google.com/store/apps/details?id=it.smartcampuslab.ifame"><i class="fa fa-shopping-bag"></i> Play Store</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="reference-item" data-category="business" data-target="design">
+                  <div class="reference">
+                    <a href="#">
+                      <img src="img/eyecity/eyecity.jpg" class="img-responsive" alt="" />
+
+                      <div class="overlay">
+                        <h3 class="reference-title">EyeCity</h3>
+                        <p>a Data-Driven Decision Maker to keep an eye on your city
+                        </p>
+                      </div>
+                    </a>
+
+                    <div class="sr-only reference-description" data-images="img/eyecity/eyecity01.jpg,img/eyecity/eyecity02.jpg,img/eyecity/eyecity03.jpg">
+
+                      <p><strong>EyeCity</strong> (pronounced /ˌaɪ si ˈti/) is a management platform for integration and real-time analysis of the data collected from the sensors of the town of Milan, to create <strong>forecasts in support to decision making</strong> through data analytics and predictive learning.
+                      </p>
+
+                      <p>I participated with 5 friends in the <a href="http://connectedcity.talentgarden.org">Connected City Hackathon</a>, held in Milan on December 17-18th 2016 and organized by A2A Smart City, Talent Garden and the Municipality of Milan; eventually, we won the <strong>second prize of 3K€</strong>. During the Hackathon I worked on the <strong>Business Plan</strong> and Strategy and designed the <strong>5-minute-pitch</strong> which I presented on the following day in front of the jury.
+                      </p>
+
+                      <p align="center"> 
+                        <iframe src="http://www.slideshare.net/slideshow/embed_code/key/4ec8Vn6UAkkKRJ" width="595" height="375" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
+                        </iframe>
+                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftalentgarden%2Fvideos%2F1381682245206171%2F&show_text=0&width=560" width="560" height="315" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none; overflow:hidden; margin-bottom:5px; max-width: 100%;" allowfullscreen>
+                        </iframe>
+
+                      </p>                                                                              
+                    </div>
+                  </div>
+                </div>
+
+                <div class="reference-item" data-category="design">
+                  <div class="reference">
+                    <a href="#">
+                      <img src="img/homatic/homatic.jpg" class="img-responsive" alt="" />
+
+                      <div class="overlay">
+                        <h3 class="reference-title">Homatic</h3>
+                        <p>the revolutionary multimodal smarthome system</p>
+                      </div>
+                    </a>
+
+                    <div class="sr-only reference-description" data-images="img/homatic/homatic01.jpg, img/homatic/homatic02.jpg, img/homatic/homatic03.jpg">
+
+                      <p>Homatic aims at being a revolutionary <strong>multimodal smarthome</strong> system. Indeed, it provides a 2D graphical representation of the house
+                        with its rooms (in 3D); the user can set lights, temperature, doors, windows and other specific devices for every room.
+                        A drag-and-drop interaction sets the profile “Leaving Home” and “Coming Home” (figure 1): the user receives an audio-feedback after their activation;
+                        these can be also activated by shaking the tablet (thanks to its accelerometer). Moreover, every user action is saved automatically.
+                        Finally, the whole application is available in three languages.
+                      </p>
+
+                      <p>Homatic was conceived as the redesign of a previously-developed smart house application for the course of Programming
+                        for Interactive Systems at <a href="http://www.u-psud.fr/en/index.html">Universitè Paris-Sud</a>. My main contribution was to <strong>redesign
+                        the interactions</strong> of the system (figure 2) by including both the former applications, prepare the <strong>storyboard</strong> (figure 3) and the views of
+                        the house and the rooms (using <a href="http://www.homestyler.com">HomeStyler</a>) and help with the development of the Android app.
+                      </p>
+
+                      <p align="center"> 
+                        <iframe src="http://www.slideshare.net/slideshow/embed_code/key/qg5Uc56wWMk232" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+                      </p>
+
+                      <p class="buttons">
+                        <a class="btn btn-primary" href="http://bitbucket.org/borcestojkovski/bsmarthome/"><i class="fa fa-bitbucket"></i> Source code</a>
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="reference-item" data-category="design">
+                  <div class="reference">
+                    <a href="#">
+                      <img src="img/airport/airport.jpg" class="img-responsive" alt="" />
+
+                      <div class="overlay">
+                        <h3 class="reference-title">Airport Infotainment</h3>
+                        <p>interactions with a pico-projector to entertain the passangers</p>
+                      </div>
+                    </a>
+
+                    <div class="sr-only reference-description" data-images="img/airport/airport01.jpg,img/airport/airport02.jpg,img/airport/airport03.jpg">
+
+                      <p>This project was realized for a Design Bootcamp held by <a href="http://hcipioneers.wordpress.com/portfolio/mackay-wendy/">
+                      Wendy Mackay</a> and <a href="http://hcipioneers.wordpress.com/portfolio/beaudouin-lafon-michel/">Michel Beaudouin-Lafon</a>.
+                      Firstly, I conducted 15+ <strong>Critical Incident interviews</strong> in order to detect what people do when
+                      they are bored: these were later used to find possible applications of a <strong>pico-projector</strong> within a certain use scenario
+                      chosen with my group, i.e. an airport. After multiple <strong>video brainstorming</strong> sessions, which helped us to explore possible
+                      design alternatives, we decided to employ the pico-projector for information and entertainment purposes within an "Infotainment Area" (figure 3).
+                    </p>
+
+                    <p>Once defined the user profile and created the personas, we prepared all the things necessary to simulate the use-case scenario and I
+                      shooted and mounted the first version of the <strong>Video-Prototype</strong>. After a round of feedback, we conducted a generative walkthrough,
+                      redesigned some of the interactions and shooted the second (and final) version of the Video-Prototype, showing the users performing some of the
+                      interactions with the system (figure 2). Finally, I mounted the video and <strong>sketched the images</strong> and the <strong>storyboard for the poster</strong> (figure 1).
+                    </p>
+
+                    <p class="buttons">
+                      <a class="btn btn-primary" href="http://www.dropbox.com/s/xgrzb9gubpld3ce/Airport%20Infotainment%202.mp4?dl=0"><i class="fa fa-video-camera"></i> Final Video-Prototype</a>
+                      <a class="btn btn-primary" href="http://www.dropbox.com/s/fvu0y6wghmc9vt7/Airport%20Infotainment.mp4?dl=0"><i class="fa fa-video-camera"></i> Draft Video-Prototype</a>
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="reference-item" data-category="design">
+                <div class="reference">
+                  <a href="#">
+                    <img src="img/cd/cd.jpg" class="img-responsive" alt="" />
+
+                    <div class="overlay">
+                      <h3 class="reference-title">Creative Design</h3>
+                      <p>awakening creativity and going for quantity in design</p>
+                    </div>
+                  </a>
+
+                  <div class="sr-only reference-description" data-images="img/cd/gif.gif,img/cd/cd01.jpg,img/cd/cd02.jpg">
+
+                    <p>This "portfolio" is the result of a course in Creative Design held by <a href="http://pages.cpsc.ucalgary.ca/~lora.oehlberg/">Lora Oehlberg</a>.
+                      As she said, <i>"with a larger set of ideas, there are high odds that one of them will be good. Ergo, quantity is always good"</i>.
+                      The purpose was to get us thinking concretely and faster, <strong>avoiding design fixation</strong> and analysis-paralysis.
+                    </p>
+
+                    <p>Firstly, we were asked to submit <strong>Weekly Reflections</strong> since <i>"good designers don't just create good work; they think about
+                    how they did it"</i>. In addition, we did not have one major final project, but a series of final projects. For this portfolio of projects, we had first to select and
+                    complete <strong>3 of the mini-projects</strong> given, presenting conceptual sketches for at least <strong>3 different paths</strong> we might take for
+                    each of them. Then, we needed to refine and present one idea for each project and execute it <i>beautifully</i>.
+                  </p>
+
+                  <p class="buttons">
+                    <a class="btn btn-primary" href="http://www.dropbox.com/s/hwfytxj5qgmj5jb/11.20%20-%20Final%20Project%20Portfolio.pdf?dl=0"><i class="fa fa-heart"></i> Portfolio</a>
+                    <a class="btn btn-primary" href="http://www.dropbox.com/sh/qpoyixghhg2up8u/AACirJC3d-nGt28egChee31ba?dl=0"><i class="fa fa-dropbox"></i> Creative Folder</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="reference-item" data-category="design">
+              <div class="reference">
+                <a href="#">
+                  <img src="img/mall/mall.jpg" class="img-responsive" alt="" />
+=======
+>>>>>>> 800436f639ccf33540e687334bf43b7d85f6f160
 
                                 <p>The <strong>EIT Alumni Startup Days</strong> is a non-profit event bringing together people from different technical areas to develop a new business idea on a sustainable topic over a weekend. The objective is to offer technical students and <a href="http://eitalumni.eu/">Alumni</a> the chance to put entrepreneurial education into practice and foster the collaboration of the EIT Knowledge and Innovation Communities and their stakeholders.
                                 </p>
@@ -864,10 +1417,17 @@
                                 </div>
                               </div>
                             </div>
+>>>>>>> e786105263e9190884f72bd4839ce3b22c032d23
 
-                          </div>
-                          <!-- /#references-masonry -->
+                  <div class="overlay">
+                    <h3 class="reference-title">Malltimodal</h3>
+                    <p>a multimodal mobile application that helps impaired users inside a shopping mall</p>
+                  </div>
+                </a>
 
+<<<<<<< HEAD
+                <div class="sr-only reference-description" data-images="img/mall/mall01.jpg,img/mall/mall02.jpg,img/mall/mall03.jpg">
+=======
                         </div>
                         <!-- /.12 -->
                       </div>
@@ -877,21 +1437,65 @@
 
                     </div>
                     <!-- /.section -->
+>>>>>>> e786105263e9190884f72bd4839ce3b22c032d23
 
-                    <!-- *** REFERENCES END *** -->
+                  <p>For a course in Multimodal Interaction, whose aim was to develop an interface showing <strong>multimodal and intelligent adaptive
+                  behavior</strong>, I worked with my group at Malltimodal: this is a native Android application to help users navigate in a Shopping Mall through
+                  interactive and novel ways. The application uses <strong>2 input modalities and 5 output modalities</strong> (figure 1), therefore 10 different
+                  combinations are possible.
+                </p>
 
-    <!-- *** CONTACT ***
-    _________________________________________________________ -->
+                <p>My main contribution was to explore all the different input/output modalities, create the images and code the layout and the <strong>visual
+                appearance</strong> of the Android application.
+              </p>
 
-    <div class="section text-gradient" id="contact">
-      <div class="container">
-       <div class="col-md-12">
-
-        <h2 class="title" data-animate="fadeInDown">Contact me</h2>
-
-        <div class="row">
-          <p class="lead" data-animate="fadeInUp"> I will be happy to hear from you! You can <strong>always</strong>:</p>
+            </div>
+          </div>
         </div>
+
+        <div class="reference-item" data-category="business">
+          <div class="reference">
+            <a href="#">
+              <img src="img/bw/bw.jpg" class="img-responsive" alt="" />
+
+              <div class="overlay">
+                <h3 class="reference-title">BarWin</h3>
+                <p>a platform for social and interactive gaming inside a bar
+                </p>
+              </div>
+            </a>
+
+            <div class="sr-only reference-description" data-images="img/bw/bw01.jpg,img/bw/bw02.jpg,img/bw/bw03.jpg">
+
+              <p>For the EIT Digital <a href="http://www.eitdigital.eu/entrepreneurial-education/summer-schools/smart-spaces/">Summer School</a>
+                focusing on <a href="http://sspsummerschool.wordpress.com/">Smart Spaces</a>
+                I worked with my team on BarWin, a solution for social and interacting gaming (figure 1). Initially we were presented with a number of
+                startups' business models and we chose Spaceify: what we did then was to switch from the original concept we were provided
+                (a multiplayer game via Wi-Fi) to focus on the <strong>real problems of the users</strong> and find out a new business solution
+                by approaching bars and pubs (figure 3).
+              </p>
+
+              <p>Regarding the teamwork, I led the <strong>brainstorming and ideation phase</strong> and focused on the personas and the user profile.
+                I was in charge of the specification of the design problem and the target customers, defined the <strong>Go-to-Market and Growth Strategy</strong>,
+                sketched a draft of an advertising campaign (figure 2), worked at the Business Model Canvas and wrote a summary of learning experience.
+              </p>
+
+              <p align="center"> 
+                <iframe src="http://www.slideshare.net/slideshow/embed_code/key/2juEXsyztQ6xXN" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
+                </iframe>
+              </p>                                                                              
+              <p class="buttons">
+                <a class="btn btn-primary" href="https://www.dropbox.com/s/km7fsmltbxyvmr9/09.05%20-%20Final%20Report.pdf?dl=0"><i class="fa fa-book"></i> Final Report</a>
+              </p>
+            </div>
+          </div>
+        </div>
+<<<<<<< HEAD
+
+      </div>
+      <!-- /#references-masonry -->
+
+=======
         <br>
         <p class="mail" data-animate="fadeInUp">
           <span class="fa fa-envelope fa-fw"></span>
@@ -920,63 +1524,114 @@
         <span> ...but I call these places <i>home</i> ! </span>
         <span class="fa fa-globe fa-fw"></span>
       </p>
+>>>>>>> e786105263e9190884f72bd4839ce3b22c032d23
     </div>
     <!-- /.12 -->
   </div>
   <!-- /.container -->
+
 </div>
 <!-- /.section -->
 
-<!-- *** CONTACT END *** -->
+<!-- *** REFERENCES END *** -->
+
+    <!-- *** CONTACT ***
+      _________________________________________________________ -->
+
+      <div class="section text-gradient" id="contact">
+        <div class="container">
+         <div class="col-md-12">
+
+          <h2 class="title" data-animate="fadeInDown">Contact me</h2>
+
+          <div class="row">
+            <p class="lead" data-animate="fadeInUp"> I will be happy to hear from you! You can <strong>always</strong>:</p>
+          </div>
+          <br>
+          <p class="mail" data-animate="fadeInUp">
+            <span class="fa fa-envelope fa-fw"></span>
+            <span><a href="mailto:francesco.bonadiman@eitdigital.eu">drop me an email</a></span>
+          </p>
+          <br>
+          <p class="mail" data-animate="fadeInUp">
+            <span class="fa fa-paper-plane fa-fw"></span>
+            <span><a href="https://t.me/franzbona">telegram me</a></span>
+          </p>
+          <br>
+          <p class="mail" data-animate="fadeInUp">
+            <span class="fa fa-phone fa-fw"></span>
+            <span><a href="tel:+393497304031">call me: +39 349 73 04 031</a></span>
+          </p>
+          <br>
+          <p class="mail" data-animate="fadeInUp">
+            <span class="fa fa-calendar fa-fw"></span>
+            <span><a href="http://doodle.com/franzbona">schedule a meeting</a></span>
+          </p>
+          <br>
+          <p class="lead" data-animate="fadeInUp">
+            <span class="fa fa-home fa-fw"></span>
+            <span> find me around Trento, Italy </span>
+          </br>
+          <span> ...but I call these places <i>home</i> ! </span>
+          <span class="fa fa-globe fa-fw"></span>
+        </p>
+      </div>
+      <!-- /.12 -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.section -->
+
+  <!-- *** CONTACT END *** -->
 
  <!-- *** MAP ***
- _________________________________________________________ -->
+   _________________________________________________________ -->
 
- <div class="section" id="map">
- </div>
- <!-- /.section -->
+   <div class="section" id="map">
+   </div>
+   <!-- /.section -->
 
- <!-- *** MAP END *** -->
+   <!-- *** MAP END *** -->
 
   <!-- *** FOOTER ***
-  _________________________________________________________ -->
+    _________________________________________________________ -->
 
-  <div class="section" id="footer">
-    <div class="container">
-     <div class="row">
+    <div class="section" id="footer">
+      <div class="container">
+       <div class="row">
 
-      <div class="col-sm-6">
+        <div class="col-sm-6">
 
-        <p class="social">
-          <a href="http://www.facebook.com/franzbona91" class="external facebook" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-facebook"></i></a>
-          <a href="http://www.linkedin.com/in/francescobonadiman" class="external linkedin" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-linkedin"></i></a>
-          <a href="skype:franzbona?call" class="external skype" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-skype"></i></a>
-          <a href="http://twitter.com/franzbona" class="external twitter" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
-          <a href="http://open.spotify.com/user/1181124167/playlist/5MMBEDCR1Kp0enEcM7tL5R" class="external spotify" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-spotify"></i></a>
-          <a href="http://github.com/franzbona" class="external github" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-github"></i></a>
-          <a href="http://www.youtube.com/channel/UCQgD1mieHhohChcZiiblE6w/videos" class="external youtube" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-youtube-play"></i></a>
-          <a href="http://last.fm/user/franzbona" class="external lastfm" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-lastfm"></i></a>
-        </p>
-      </div>
-      <!-- /.6 -->
+          <p class="social">
+            <a href="http://www.facebook.com/franzbona91" class="external facebook" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-facebook"></i></a>
+            <a href="http://www.linkedin.com/in/francescobonadiman" class="external linkedin" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-linkedin"></i></a>
+            <a href="skype:franzbona?call" class="external skype" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-skype"></i></a>
+            <a href="http://twitter.com/franzbona" class="external twitter" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-twitter"></i></a>
+            <a href="http://open.spotify.com/user/1181124167/playlist/5MMBEDCR1Kp0enEcM7tL5R" class="external spotify" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-spotify"></i></a>
+            <a href="http://github.com/franzbona" class="external github" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-github"></i></a>
+            <a href="http://www.youtube.com/channel/UCQgD1mieHhohChcZiiblE6w/videos" class="external youtube" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-youtube-play"></i></a>
+            <a href="http://last.fm/user/franzbona" class="external lastfm" data-animate-hover="shake" data-animate="fadeInUp"><i class="fa fa-lastfm"></i></a>
+          </p>
+        </div>
+        <!-- /.6 -->
 
-      <div class="col-sm-6" data-animate="fadeInUp">
-        <p>&copy; 2017 franzbona</p>
-      </div>
+        <div class="col-sm-6" data-animate="fadeInUp">
+          <p>&copy; 2017 franzbona</p>
+        </div>
 
-      <div class="col-sm-12">
-        <p class="template-bootstrapious">Template by <a href="http://www.bootstrapious.com">Bootstrapious</a> and edited by <a href="http://francescobonadiman.com/">me</a>.
-        </p>
+        <div class="col-sm-12">
+          <p class="template-bootstrapious">Template by <a href="http://www.bootstrapious.com">Bootstrapious</a> and edited by <a href="http://francescobonadiman.com/">me</a>.
+          </p>
+        </div>
+
       </div>
 
     </div>
-
+    <!-- /.container -->
   </div>
-  <!-- /.container -->
-</div>
-<!-- /.section -->
+  <!-- /.section -->
 
-<!-- *** FOOTER END *** -->
+  <!-- *** FOOTER END *** -->
 
 
 
@@ -991,6 +1646,7 @@
 
 <!-- for demo purpose -->
 <script src="js/jquery.cookie.js"></script>
+
 
 <!-- waypoints for scroll spy -->
 <script src="js/waypoints.min.js"></script>

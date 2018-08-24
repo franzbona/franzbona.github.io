@@ -10,7 +10,6 @@ $(function () {
     utils();
     sliding();
     contactForm();
-    map();
     demo();
 });
 
@@ -345,65 +344,6 @@ function fullScreenContainer() {
 	width: screenWidth,
 	height: screenHeight
     });
-}
-
-/* =========================================
- *  map
- *  =======================================*/
-
-function map() {
-
-    var styles = [{"featureType": "landscape", "stylers": [{"saturation": -100}, {"lightness": 65}, {"visibility": "on"}]}, {"featureType": "poi", "stylers": [{"saturation": -100}, {"lightness": 51}, {"visibility": "simplified"}]}, {"featureType": "road.highway", "stylers": [{"saturation": -100}, {"visibility": "simplified"}]}, {"featureType": "road.arterial", "stylers": [{"saturation": -100}, {"lightness": 30}, {"visibility": "on"}]}, {"featureType": "road.local", "stylers": [{"saturation": -100}, {"lightness": 40}, {"visibility": "on"}]}, {"featureType": "transit", "stylers": [{"saturation": -100}, {"visibility": "simplified"}]}, {"featureType": "administrative.province", "stylers": [{"visibility": "off"}]}, {"featureType": "water", "elementType": "labels", "stylers": [{"visibility": "on"}, {"lightness": -25}, {"saturation": -100}]}, {"featureType": "water", "elementType": "geometry", "stylers": [{"hue": "#ffff00"}, {"lightness": -25}, {"saturation": -97}]}];
-    var map = new GMaps({
-	el: '#map',
-    /* centered on Zambana and zoomed out */
-  lat: 46.1500,
-  lng: 11.1000,
-  zoom: 4,
-	zoomControl: true,
-	zoomControlOpt: {
-	    style: 'SMALL',
-	    position: 'TOP_LEFT'
-	},
-	panControl: false,
-	streetViewControl: false,
-	mapTypeControl: false,
-	overviewMapControl: false,
-	scrollwheel: false,
-	draggable: false,
-	styles: styles
-    });
-
-    var image = 'img/marker.png';
-
-    map.addMarker({
-	lat: 52.5167,
-	lng: 13.3833,
-	icon: image,
-	 title: 'Berlin',
-	 infoWindow: {
-	 content: '<h4>I moved to Berlin in September 2014 </br> and remained there till December 2015.</h4>'
-	 }
-    });
-    map.addMarker({
-	lat: 46.1500,
-	lng: 11.1000,
-	icon: image,
-	 title: 'Zambana',
-	 infoWindow: {
-	 content: '<h4>I was born in Trento and spent most of my life </br> in a small village named Zambana.</h4>'
-	 }
-    });
-    map.addMarker({
-	lat: 48.8567,
-	lng: 2.3508,
-	icon: image,
-	 title: 'Paris',
-	 infoWindow: {
-	 content: '<h4>I lived in Paris from September 2013  </br> until September 2014.</h4>'
-	 }
-    });
-
 }
 
 /* =========================================

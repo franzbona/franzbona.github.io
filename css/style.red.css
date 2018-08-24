@@ -30,7 +30,7 @@ NAVBAR
   border-top: solid 5px transparent;
 }
 .navbar ul.nav > li > a:hover {
-  border-top: solid 5px #d94a4a;
+  border-top: solid 5px #b12525;
 }
 @media (max-width: 767px) {
   .navbar ul.nav > li > a:hover {
@@ -1015,6 +1015,20 @@ hr {
   line-height: 1.42857143;
   border-radius: 0;
 }
+.btn-red {
+  color: #ffffff;
+  background-color: #d94a4a;
+  border-color: #d94a4a;
+}
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+  color: #ffffff;
+  background-color: #b12525;
+  border-color: #b12525;
+}
 .btn-primary {
   color: #d94a4a;
   background-color: #ffffff;
@@ -1154,7 +1168,7 @@ fieldset[disabled] .form-control {
 .pager li > a:focus {
   text-decoration: none;
   color: #fff;
-  background-color: #d94a4a;
+  background-color: #b12525;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
